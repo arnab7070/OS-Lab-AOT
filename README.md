@@ -179,7 +179,7 @@ Enter the number: 153
 
 ### Q.5 -> Pattern Questions
 ```
-	  *				
+    *				
    ***				
   *****				
  *******			
