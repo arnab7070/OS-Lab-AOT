@@ -260,7 +260,7 @@ Enter the number: 5
 5! = 120
 ```
 
-### Q.3 -> Series f(x,n) = 1 + x^2/2! + x^4/4! +....+ x^2*n/(2*n)!
+### Q.3 -> Series f(x, n) = 1 + x²/2! + x⁴/4! + ... + x^(2n)/(2n)!
 ```bash
 # Use mycompiler.io to run this because replit doesn't support basic calculator
 fact() {
