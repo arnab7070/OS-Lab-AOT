@@ -1,4 +1,4 @@
-![Alt Text](pic.png)
+[![pic.png](https://i.postimg.cc/VkpDT7Z9/pic.png)](https://postimg.cc/jD6HnhbC)
 # AOT Operating System Lab Exam 2023
 ## Section 1: If-Else Condition
 
