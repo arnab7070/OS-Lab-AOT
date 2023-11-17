@@ -779,9 +779,9 @@ done
 tput cup $((height + 2)) 0  # Move cursor to a new line after the triangle
 ```
 ```
- *
-  ***
-   *****
+     *
+      ***
+       *****
 	*******
 	 *********
 	  ***********
