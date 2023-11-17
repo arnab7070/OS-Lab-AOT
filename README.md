@@ -1,3 +1,4 @@
+![Alt Text](pic.gif)
 # AOT Operating System Lab Exam 2023
 ## Section 1: If-Else Condition
 
