@@ -71,8 +71,10 @@ Enter the year: 1753
 Not Leapyear
 ```
 
-### Q.4 -> Grade calculation (These are easy questions do it from your own)
-### Q.5 -> Electric bill calculation (These are easy questions do it from your own)
+### Q.4 -> Grade calculation 
+#### (These are easy questions do it from your own)
+### Q.5 -> Electric bill calculation 
+#### (These are easy questions do it from your own)
 
 ## Section 2: While & for loop , command line argument
 
