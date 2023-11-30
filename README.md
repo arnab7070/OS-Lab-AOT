@@ -306,6 +306,10 @@ calculate_coefficient() {
 print_pascals_triangle() {
 	rows=$1
 	for ((row = 0; row < rows; row++)); do
+		# Space Management
+		for ((space = 0; space < rows-row; space++));do
+			echo -n " ";
+		done
 		for ((col = 0; col <= row; col++)); do
 			coefficient=$(calculate_coefficient $row $col)
 			echo -n "$coefficient "
@@ -318,13 +322,12 @@ print_pascals_triangle $rows
 ```
 #### Output
 ```
-Enter the number of rows: 6
-1 
-1 1 
-1 2 1 
-1 3 3 1 
-1 4 6 4 1 
-1 5 10 10 5 1
+Enter the number of rows: 5
+     1 
+    1 1 
+   1 2 1 
+  1 3 3 1 
+ 1 4 6 4 1
 ```
 
 ## Section: 5 case-menu driven
