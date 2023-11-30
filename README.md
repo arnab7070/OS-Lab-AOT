@@ -12,7 +12,7 @@ read -p "Enter the operator: " op
 # always use dollar for getting value
 if [ $op == '+' ]; then echo $((a+b))
 elif [ $op == '-' ]; then echo $((a-b))
-elif [ $op == '*' ]; then echo $((a*b)) # This will create no problem in linux
+elif [ "$op" == '*' ]; then echo $((a*b)) # The quotation is important otherwise result will be 0
 elif [ $op == '/' ]; then echo $((a/b))
 elif [ $op == '%' ]; then echo $((a%b))
 fi
